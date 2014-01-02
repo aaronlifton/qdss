@@ -8,7 +8,7 @@
     [org.clojure/core.async "0.1.267.0-0d7780-alpha"]
     [http-kit "2.1.13"]
     [hiccup "1.0.4"]
-    [com.novemberain/welle "2.0.0-beta1"]
+    [com.taoensso/carmine "2.4.0"]
     ]
   :main ^:skip-aot riaktor.core
   :target-path "target/%s"
