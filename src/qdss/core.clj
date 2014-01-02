@@ -1,4 +1,4 @@
-(ns riaktor.core
+(ns qdss.core
   (:gen-class)
   (:require [clojure.core.async :refer [thread chan go]]
             [taoensso.carmine :as car :refer (wcar)])
@@ -17,7 +17,7 @@
         [:h1 get-val]))))
 
 (defn gen-html []
-  (html [:h1 "Hello there"] (gen-redis-html)))
+  (html [:h1 "QDOSS"] [:h2 "Hello there"] (gen-redis-html)))
 
 (defn app [req]
   {:status  200
